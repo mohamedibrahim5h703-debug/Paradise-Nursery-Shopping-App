@@ -14,7 +14,7 @@ function App() {
       <ul>
         {products.map(product => (
           <li key={product.id}>
-            {product.name} - السعر: {product.price} ريال
+            {product.name} - السعر: {product.price} جنيه
           </li>
         ))}
       </ul>
